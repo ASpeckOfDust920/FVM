@@ -1,6 +1,6 @@
 
 
-                                  Windows Featherweight Virtual Machine (FVM)
+                        Windows Featherweight Virtual Machine (FVM)
 
 
  Overview
@@ -82,11 +82,16 @@
   • Differential synchronization is supported to reduce data transmission overhead.
 
 
+ Use
+
+ Download FrameInstall.exe, FVM User Manual.pdf
+ Start your journey according to the user manual!
+
 
 
 
  
-                                         Windows 轻量级虚拟机(FVM)
+                                Windows 轻量级虚拟机(FVM)
 
 
  概述
@@ -149,6 +154,9 @@
   • 支持差分同步减少数据传输开销
 
 
+ 使用
 
-
+ 下载FrameInstall.exe、FVM 用户手册.pdf
+ 根据用户手册开始你的旅程！
+  
 
