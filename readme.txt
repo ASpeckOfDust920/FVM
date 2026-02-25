@@ -16,12 +16,11 @@
  Architecture Design
  
  FVM constructs a virtualization layer between the operating system kernel and the
- application layer, utilizing an innovative Copy-on-Write (CoW) mechanism. This
- design allows virtual machine processes to directly share host system resources
- while ensuring complete runtime isolation. Each virtual machine only needs to
- record the differential state relative to the host environment, eliminating the need to
- replicate a full operating system image. This significantly reduces storage and
- runtime overhead.
+ application layer, utilizing an Copy-on-Write (CoW) mechanism. This design allows
+ virtual machine processes to directly share host system resources while ensuring
+ complete runtime isolation. Each virtual machine only needs to record the differential
+ state relative to the host environment, eliminating the need to replicate a full
+ operating system image. This significantly reduces storage and runtime overhead.
 
 
  Core Technical Features
@@ -103,9 +102,9 @@
 
  架构设计
  
- FVM在操作系统内核与应用程序层之间构建虚拟化层，采用创新的写时复制（Copy-on-
- Write）机制。该设计使虚拟机进程能够直接共享主机系统资源，同时确保运行时环境的完
- 全隔离。每个虚拟机仅需记录与主机环境的差异状态，无需复制完整的操作系统镜像，大幅
+ FVM在操作系统内核与应用程序层之间构建虚拟化层，采用写时复制（Copy-on-Write）机制。
+ 该设计使虚拟机进程能够直接共享主机系统资源，同时确保运行时环境的完全隔离。每个虚拟机
+ 仅需记录与主机环境的差异状态，无需复制完整的操作系统镜像，大幅
  降低了存储与运行开销。
 
     
